@@ -199,11 +199,18 @@ body {
     color: var(--white-text-color);
 }
 
+
+/* portfolio.html */
+
 /* filters */
 .filter {
     background-color: var(--filter-bg-color);
     color: var(--primary-text-color);
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 
     cursor: pointer;
 }
@@ -212,4 +219,17 @@ body {
 .filter:focus {
     background-color:var(--accent-color);
     color: var(--white-text-color);
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--secondary-text-color);
 }
