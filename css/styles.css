@@ -1,0 +1,54 @@
+/* основний колір текста #212121 */
+
+/* сірий колір текста #757575 */
+
+/* сірий колір в футері rgba(255, 255, 255, 0.6) */
+
+/* білий колір текста #FFFFFF */
+
+/* чорний колір текста в лого #000000 */
+
+/* акцентний колір текста #2196F3 */
+
+/* основний фон #FFFFFF */
+
+/* чорний фон #2F303A */
+
+/* сірий фон #F5F4FA */
+
+body {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+.logo {
+    color: #000000;
+}
+
+.logo-accent {
+    color: #2196F3;
+}
+
+.list {
+    list-style: none;
+}
+
+/* site-nav */
+.site-nav .link {
+    color:#212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+/* contacts */
+.contacts {
+    color: #757575;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: #2196F3;
+}
